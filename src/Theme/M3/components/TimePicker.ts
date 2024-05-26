@@ -37,6 +37,9 @@ export const getTimePicker = (theme: Theme): M3DatePicker => {
   return {
     MuiTimePickerToolbar: {
       styleOverrides: {
+        root: {
+
+        },
         separator: {
           color: palette.onSurface.main,
           lineHeight: "64px",
